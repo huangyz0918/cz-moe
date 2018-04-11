@@ -1,0 +1,96 @@
+{
+  "types": {
+    "✨ feat": {
+      "description": "A new feature",
+      "title": "Features"
+    },
+    "💄 ui": {
+      "description": "Updating the UI and style files.",
+      "title": "Features"
+    },
+    "🐛 fix": {
+      "description": "A bug fix",
+      "title": "Bug Fixes"
+    },
+    "🚑 quickfix": {
+      "description": "Critical hotfix.",
+      "title": "Critical hotfix"
+    },
+    "📝 docs": {
+      "description": "Documentation only changes",
+      "title": "Documentation"
+    },
+    "💡 docs-code": {
+      "description": "Documenting source code.",
+      "title": "Documenting source code"
+    },
+    "💬 texts": {
+      "description": "Updating text and literals.",
+      "title": "Text and literals"
+    },
+    "🌐 i18n": {
+      "description": "Internationalization and localization.",
+      "title": "Internationalization"
+    },
+    "✏️ typo": {
+      "description": "Fixing typos.",
+      "title": "Typos"
+    },
+    "🔧 config": {
+      "description": "Changing configuration files.",
+      "title": "Configuration"
+    },
+    "🚸 ux": {
+      "description": "Improving user experience / usability.",
+      "title": "User experience"
+    },
+    "🎉 init": {
+      "description": "Initial commit.",
+      "title": "Initial commit"
+    },
+    "🎨 style": {
+      "description":
+        "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
+      "title": "Styles"
+    },
+    "🔨 refactor": {
+      "description":
+        "A code change that neither fixes a bug nor adds a feature",
+      "title": "Code Refactoring"
+    },
+    "⚡️ perf": {
+      "description": "A code change that improves performance",
+      "title": "Performance Improvements"
+    },
+    "✅ test": {
+      "description": "Adding missing tests or correcting existing tests",
+      "title": "Tests"
+    },
+    "🚨 lint": {
+      "description": "Removing linter warnings.",
+      "title": "Lint"
+    },
+    "👷 build": {
+      "description":
+        "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
+      "title": "Builds"
+    },
+    "🚜 ci": {
+      "description":
+        "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)",
+      "title": "Continuous Integrations"
+    },
+    "🐳 docker": {
+      "description": "Work about Docker.",
+      "title": "Docker"
+    },
+    "💤 chore": {
+      "description": "Other changes that don't modify src or test files",
+      "title": "Chores"
+    },
+    "⏪ revert": {
+      "description": "Reverts a previous commit",
+      "title": "Reverts"
+    }
+  }
+}

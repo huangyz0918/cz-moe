@@ -1,25 +1,24 @@
 {
-  "name": "cz-conventional-changelog",
-  "version": "0.0.0-semantically-released.0",
-  "description": "Commitizen adapter following the conventional-changelog format.",
+  "name": "cz-moe",
+  "version": "0.0.1",
+  "description": "Commitizen adapter with emoji",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
     "test": "echo 'Tests need to be setup!'",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "semantic-release":
+      "semantic-release pre && npm publish && semantic-release post"
   },
-  "homepage": "https://github.com/commitizen/cz-conventional-changelog",
+  "homepage": "https://github.com/xiaoxiangmoe/cz-moe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/commitizen/cz-conventional-changelog.git"
+    "url": "https://github.com/xiaoxiangmoe/cz-moe.git"
   },
-  "author": "Jim Cummins <jimthedev@gmail.com>",
+  "author": "ZHAO Jinxiang <xiaoxiangmoe@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "conventional-commit-types": "^2.0.0",
+    "emojicharstring": "^0.1.0",
     "lodash.map": "^4.5.1",
-    "longest": "^1.0.1",
-    "right-pad": "^1.0.1",
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
@@ -27,7 +26,7 @@
     "semantic-release": "^6.3.2"
   },
   "config": {
-    "commitizen" : {
+    "commitizen": {
       "path": "./index.js"
     }
   }
