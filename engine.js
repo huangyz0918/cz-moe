@@ -2,7 +2,7 @@
 
 var wrap = require('word-wrap');
 var map = require('lodash.map');
-const EmojiCharString = require('EmojiCharString');
+const EmojiCharString = require('emojicharstring');
 
 const blanks = n =>
   Array(n)
